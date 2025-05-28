@@ -1,39 +1,39 @@
 # 📅 Cronograma — Trabalho Sistema de Arquivos FAT
 
-## ✅ Semana 1: Estudo e planejamento (28/05 a 01/06)
+## 1. Estudo e planejamento (28/05 a 01/06)
 
-- [ ] **28/05 (Hoje):**
+- [x] **28/05:**
   - Ler toda a especificação com atenção.
   - Explorar o código já fornecido: `cmd.c`, `ds.c`, `fat.c` e arquivos `.h`.
   - Executar `make dev` e testar comandos na `imagem-pronta`.
 
-- [ ] **29/05 a 31/05:**
+- [x] **29/05 a 31/05:**
   - Estudar o funcionamento do `fat_debug()`, `fat_format()` e `fat_mount()`.
   - Mapear variáveis globais (superbloco, diretório, FAT) e entender como persistem no disco.
   - Revisar como a simulação de disco (`ds.c`) manipula blocos.
 
-- [ ] **01/06:**
+- [x] **01/06:**
   - Planejar detalhadamente a implementação das três primeiras funções (`debug`, `format`, `mount`).
 
 ---
 
-## ✅ Semana 2: Primeira implementação funcional (02/06 a 08/06)
+## 2. Primeira implementação funcional (02/06 a 08/06)
 
-- [ ] **02/06 a 04/06:**
+- [x] **02/06 a 04/06:**
   - Implementar `fat_debug()` → imprime o estado do sistema.
   - Testar com `make img` e `make dev`.
 
-- [ ] **05/06 a 06/06:**
+- [x] **05/06 a 06/06:**
   - Implementar `fat_format()` → cria superbloco, diretório e FAT.
   - Testar: criar nova imagem e verificar com `fat_debug()`.
 
-- [ ] **07/06 a 08/06:**
+- [x] **07/06 a 08/06:**
   - Implementar `fat_mount()` → carrega FAT e diretório para memória.
   - Testar montando imagem pronta e nova imagem.
 
 ---
 
-## ✅ Semana 3: Manipulação de arquivos (09/06 a 13/06)
+## 3. Manipulação de arquivos (09/06 a 13/06)
 
 - [ ] **09/06 a 10/06:**
   - Implementar `fat_create()` → adicionar arquivo vazio no diretório.
@@ -49,7 +49,7 @@
 
 ---
 
-## ✅ Semana 4: Manipulação de dados (14/06 a 15/06)
+## 4. Manipulação de dados (14/06 a 15/06)
 
 - [ ] **14/06:**
   - Implementar `fat_read()` → ler dados de arquivos com offset.
@@ -61,7 +61,7 @@
 
 ---
 
-## ✅ Dia da apresentação: **16/06**
+## 5. Apresentação: **16/06**
 
 - [ ] Testar o sistema completo com comandos: `formatar`, `montar`, `criar`, `deletar`, `importar`, `exportar`, `ver`, `medir`.
 - [ ] Preparar slides (se necessário) e exemplos demonstrativos.
@@ -69,7 +69,7 @@
 
 ---
 
-## ✅ Resumo das etapas:
+## Resumo das etapas:
 
 | Data          | Atividade                                                        |
 |---------------|-------------------------------------------------------------------|
